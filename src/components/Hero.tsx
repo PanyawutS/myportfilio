@@ -11,10 +11,12 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            สวัสดีครับ, ผม [ชื่อของคุณ]
+            สวัสดีครับ, ผม ปัญญาวุธ แสงแดง
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-            Full Stack Developer จาก กรุงเทพมหานคร
+            นักศึกษาสาขาวิทยาการคอมพิวเตอร์
+            วิทยาลัยการคอมพิวเตอร์
+            มหาวิทยาลัยขอนแก่น
           </p>
         </motion.div>
 
@@ -25,23 +27,23 @@ const Hero = () => {
           className="flex justify-center space-x-4"
         >
           <a
-            href="https://github.com"
+            href="https://github.com/PanyawutS"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:bg-accent transition-colors"
           >
             <Github className="w-6 h-6" />
           </a>
-          <a
+          {/* <a
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:bg-accent transition-colors"
           >
             <Linkedin className="w-6 h-6" />
-          </a>
+          </a> */}
           <a
-            href="mailto:your@email.com"
+            href="petongable@gmail.com"
             className="p-2 rounded-full hover:bg-accent transition-colors"
           >
             <Mail className="w-6 h-6" />

@@ -4,10 +4,22 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 const Portfolio = () => {
   const projects = [
     {
-      title: "โปรเจค...",
-      description: "รายละเอียดโปรเจค...",
-      technologies: ["React", "TypeScript", "Tailwind"],
-      link: "https://example.com",
+      title: "Mobile Applacation FindByDino",
+      description: "เป็นการพัฒนา Mobile Application ในระบบปฏิบัติการ Android มีรูปแบบเกมแบบ Mario-Like",
+      technologies: ["Flutter", "Firebase"],
+      link: "https://github.com/PanyawutS",
+    },
+    {
+      title: "Workout Website",
+      description: "เว็บไซต์แนะนำการออกกำลังกายโดยสามารถเลือก ดู เพิ่ม ลบเนื้อหาภายในเว็บไซต์ได้",
+      technologies: ["Java", "Springboot", "HTML"],
+      link: "https://github.com/PanyawutS",
+    },
+    {
+      title: "Karaoke Booking System",
+      description: "ระบบจองห้องคาราโอเกะ ร้านโรงสีกังสดาล มหาวิทยาลัยของแก่น",
+      technologies: ["MySQL", "Supabase", "HTML"],
+      link: "https://github.com/PanyawutS",
     },
     // สามารถเพิ่มผลงานเพิ่มเติมได้ตามต้องการ
   ];

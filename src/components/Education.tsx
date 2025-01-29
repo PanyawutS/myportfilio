@@ -4,10 +4,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 const Education = () => {
   const educationHistory = [
     {
-      school: "มหาวิทยาลัย...",
-      degree: "ปริญญา...",
-      year: "25XX - 25XX",
-      description: "คณะ... สาขา...",
+      school: "มหาวิทยาลัยขอนแก่น",
+      degree: "กำลังศึกษาชั้นปีที่ 3",
+      year: "2565 - 2569",
+      description: "คณะวิทยาลัยการคอมพิมเตอร์ สาขาวิทยาการคอมพิวเตอร์",
+    },
+    {
+      school: "โรงเรียนยโสธรพิทยาคม",
+      degree: "มัธยมศึกษาตอนปลาย",
+      year: "2562 - 2564",
+      description: "สาขาวิทย์-คณิต",
     },
     // สามารถเพิ่มประวัติการศึกษาเพิ่มเติมได้ตามต้องการ
   ];

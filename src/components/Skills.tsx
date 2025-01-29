@@ -22,7 +22,7 @@ const Skills = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl font-bold mb-8 text-center">
-            ทักษะและความเชี่ยวชาญ
+            ทักษะและความสามารถ
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {skills.map((skill, index) => (
