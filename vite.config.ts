@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/", // เปลี่ยนเป็นชื่อ repository ของคุณ เช่น "/your-repo-name/"
   server: {
     host: "::",
     port: 8080,
